@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastroagendamento</title>
+    <link rel="stylesheet" href="menu.css">
+    <script src="https://kit.fontawesome.com/7f3ade3e1e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <header>
+        <img src="logo.png" alt="">
+        <h1>Oficina Mecânica</h1>
+        <div class="div-header">
+            <button><a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i>Sair
+</a> </button>
+            <img class="img-usuario"
+                src="vetor-de-ícone-perfil-do-avatar-padrão-foto-usuário-mídia-social-183042379.webp" alt="Perfil">
+            <p>Nome do usuário</p>
+        </div>
+    </header>
+    <section class="nav-e-main">
+        <nav>
+            <ul>
+               <li><a href="principal.html"><i class="fa-solid fa-house"></i> Menu</a></li>
+                <li><a href="cadastrocliente.html"><i class="fa-solid fa-user"></i> Cadastro Clientes</a></li>
+                <li><a href="listacliente.html"><i class="fa-solid fa-list"></i> Listagem Cliente</a></li>
+                <li><a href="cadastroveiculo.html"><i class="fa-solid fa-car"></i> Cadastro Veículo</a></li>
+                <li><a href="cadastroagendamento.html"><i class="fa-regular fa-calendar"></i> Cadastro Agendamento</a></li>
+                <li><a href="listaagendamento.html"><i class="fa-solid fa-list"></i> Listagem Agendamento</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Cadastro de Agendamentos</h2>
+            <form>
+                <h3>Preencha as informações abaixo:</h3>
+
+                <div class="inputgroup">
+                    <label for="date"></label>
+                    <div class="input-item">
+                        <input id="data" type="date" placeholder="Data:">
+                    </div>
+                </div>
+                <div class="inputgroup">
+                    <label for="time"></label>
+                    <div class="input-item">
+                        <input id="hora" type="time" placeholder="Hora:">
+                    </div>
+                </div>
+                <div class="inputgroup">
+                    <label for="service"></label>
+                    <div class="input-item">
+                        <input id="serviço" type="text" placeholder="Serviço:">
+                    </div>
+                </div>
+                <label for="Veiculo"></label>
+                <div class="input-item">
+                    <select id="Veiculo" name="Veiculo">
+                        <option value="" selected>Selecione um veículo...</option>
+                        <option value="veiculo1"> hatche Volks</option>
+                        <option value="veiculo2">sedan Toyota</option>
+                        <option value="veiculo3">picape	Hyundai </option>
+                    </select>
+                </div>
+                <button class="btn-finalizar">Finalizar cadastro</button>
+            </form>
+        </main>
+    </section>
+    
+</body>
+</html>

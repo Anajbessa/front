@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pr-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>cadastrocliente</title>
     <link rel="stylesheet" href="menu.css">
-     <script src="https://kit.fontawesome.com/7f3ade3e1e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7f3ade3e1e.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <header>
+     <header>
         <img src="logo.png" alt="">
         <h1>Oficina Mecânica</h1>
         <div class="div-header">
@@ -33,8 +31,37 @@
             </ul>
         </nav>
         <main>
+            <h2>Cadastro de Clientes</h2>
+            <form>
+                <h3>Preencha as informações abaixo:</h3>
+                 <div class="inputgroup">
+                <label for="username"></label>
+                <div class="input-item">
+                <input id="username" type="text" placeholder=" Nome completo:">
+                </div>
+            </div>
+            <div class="inputgroup">
+                <label for="password"></label>
+                <div class="input-item">
+                    <input id="Telefone" type="tel" placeholder="Telefone">
+                </div>
+            </div>
+             <div class="inputgroup">
+                <label for="username"></label>
+                <div class="input-item">
+                <input id="Email" type="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="inputgroup">
+                <label for="password"></label>
+                <div class="input-item">
+                    <input id="Endereco" type="text" placeholder="Endereço">
+                </div>
+            </div>
+            <button class="btn-finalizar">Finalizar cadastro</button>
+            </form>
         </main>
     </section>
+    
 </body>
-
 </html>

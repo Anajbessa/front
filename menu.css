@@ -4,7 +4,7 @@
 }
 body{
     background-image: url(oficina\ ksksksk.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 header button{
     background-color: #eff5df;
@@ -39,6 +39,7 @@ nav{
 }
 main{
     grid-column: 2;
+    margin: 70px;
 }
 img{
     height: 70px;
@@ -66,4 +67,138 @@ a:hover{
 }
 h1, p{
     color: #698f91;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color:  #eff5df90;
+    border-radius: 12px;
+    height: 500px;
+    width: 800px;
+    gap: 25px;
+    box-shadow: 0 10px 60px 10px #92b4ae;
+    
+}
+.input-item{
+width: fit-content;
+border: 2px solid #698f91;
+padding: 8px;
+border-radius: 12px;
+}
+input,select{
+    width: 350px;
+    border: none;
+    outline: none;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: rgb(255, 253, 240);
+}
+.btn-finalizar{
+    border: none;
+    background-color: #90b1ab;
+    border-radius: 12px;
+    padding: 12px;
+    justify-self: end;
+    align-self: end;
+    margin-top: 50px;
+    color: rgb(255, 253, 240);
+    height: 50px;
+    width: 150px;
+    text-align: center;
+}
+.btn-finalizar:hover{
+    background-color: #92b4ae;
+    cursor: pointer;
+}
+h2{
+    color: #4c6b6c;
+    margin: 10px;
+    font-size: 40px;
+}
+h3{
+    color: #4c6b6c;
+    margin: 5px;
+    font-size: 25px;
+}
+
+td{
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #eff5df94;
+}
+
+th{
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #eff5dfee;
+}
+
+table{
+    color: #4c6b6c;
+    width: 80vw;
+    box-shadow: 0 10px 60px 10px #92b4ae;
+    border-radius: 12px;
+}
+
+.h2-table{
+    font-size: 30px;
+    font-weight: bold;
+}
+section{
+   display: flex;
+   justify-content: space-between;
+   width: 80vw;
+}
+.table-agend{
+    display: flex;
+    gap: 100px;
+}
+
+.table-agend tr{
+    margin: 10px;
+}
+
+details{
+    border-radius: 12px;
+    padding: 8px;
+    background-color: #eff5df94;
+}
+
+.details-lista{
+    box-shadow: 0 10px 60px 5px #92b4ae;
+    margin-top: 20px;
+    gap: 80px;
+}
+
+summary{
+    color: #4c6b6c;
+    font-size: 20px;
+    margin: 8px;
+}
+
+.details-lista summary{
+    display: flex;
+    flex-direction: row;
+    gap: 240px;
+}
+
+.details-lista summary::before {
+    content: "▶";
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.details-lista[open] summary::before {
+    content: "▼";
+}
+
+details button{
+    border: none;
+    font-size: 17px;
+    background-color: #eff5df94;
+    color: #4c6b6c;
+    display: flex;
+    margin: 6px 0 5px 10px;
 }

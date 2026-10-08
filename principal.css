@@ -4,7 +4,7 @@
 }
 body{
     background-image: url(oficina\ ksksksk.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 header button{
     background-color: #eff5df;
@@ -62,8 +62,29 @@ a{
     color: #698f91;
 }
 a:hover{
-    color:#698f91
+    color:#4c6b6c;
 }
 h1, p{
     color: #698f91;
+}
+.a-principal{
+    font-size: 50px;
+    margin: 50px;
+    background-color: #eff5df4d;
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    
+}
+main{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items:center ;
+    margin: 120px;
+    flex-wrap: wrap;
+}
+.icones-principal{
+    display:flex;
+    flex-direction: column;
 }
